@@ -4,7 +4,7 @@ package BinarySearch;
 //Floor =greatest no <=target.
 public class Problem5 {
     public static void main(String[] args) {
-        int arr[] = {2, 4, 6, 8, 10, 12, 16, 24, 32, 40};
+        int arr[] = {2, 4, 6, 8, 10, 12, 16, 24, 32, 40,47};
         int target = 5;//target is not present in the array so ans= 4 index=1;
         System.out.println(floor(arr, target));
 
